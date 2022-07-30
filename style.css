@@ -1,0 +1,76 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .page-body {
+        padding: 0.1;
+        margin: auto;
+        width: 65%;
+        height: 50vh;
+        background-image: url(https://res.cloudinary.com/twenty20/private_images/t_standard-fit/photosp/5a2ae37d-bc28-4cfe-aee6-b727ece8221d/5a2ae37d-bc28-4cfe-aee6-b727ece8221d.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 10px 5px 5px gray;
+    }
+    
+    h1 {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(7, 41, 80);
+        transition: 0.4s;
+    }
+    
+    h1:hover {
+        color: rgb(4, 52, 78);
+        font-size: 43px;
+    }
+    
+    table {
+        margin: 0px auto;
+        border-collapse: collapse;
+    }
+    
+    .customer-table th {
+        padding: 18px;
+        background-color: rgb(7, 67, 112);
+        transition: 0.4s;
+        color: aliceblue;
+    }
+    
+    .customer-table td,
+    th {
+        padding: 18px 15px;
+        transition: 0.4s;
+    }
+    
+    .customer-table tr {
+        padding: 15px 15px;
+        background-color: #7a7676;
+        opacity: 0.6;
+        border-bottom: 2px solid white;
+        color: aliceblue;
+    }
+    
+    .customer-table tr:nth-child(even) {
+        background-color: #0d6297;
+        opacity: 0.7;
+    }
+    
+    .customer-table th:hover {
+        background-color: rgb(18, 194, 225);
+        font-size: 20px;
+    }
+    
+    .customer-table tr:hover {
+        background-image: linear-gradient(to right, rgb(94, 80, 80), rgb(140, 50, 18));
+    }
+    
+    pre {
+        text-align: right;
+        color: #0d6297;
+        font-weight: bold;
+        font-size: 25px;
+        padding-right: 20px;
+    }
